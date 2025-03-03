@@ -74,4 +74,22 @@ public class Luas {
         System.out.println("Luas segitiga adalah "+ luas);
         System.out.println("Keliling segitiga adalah "+ keliling);
     }
+
+    // Method hitung Lingkaran
+    public static void HitungLingkaran(Scanner input) {
+        // INPUT
+        System.out.println("Masukkan jari - jari lingkaran");
+        double jari = input.nextDouble();
+
+        // DEKLARASI KONSTANTA
+        double phi = 3.14;
+        // PROCESS 
+        double luas = phi * jari * jari;
+        double keliling = 2 * jari * phi;
+
+        // OUTPUT
+        System.out.println("Luas lingkaran adalah "+ luas);
+        System.out.println("Keliling lingkaran adalah "+ keliling);
+
+    }
 }
