@@ -51,4 +51,27 @@ public class Luas {
         System.out.println("Keliling persegi adalah "+ keliling);
     }
 
+    // METHOD Hitung Segitiga
+    public static void HitungSegitiga (Scanner input) {
+        // INPUT
+        System.out.println("Masukkan tinggi segitiga");
+        double tinggi = input.nextDouble();
+        System.out.println("Masukkan alas segitiga");
+        double alas = input.nextDouble();
+        
+        System.out.println("Masukkan sisi1 segitiga");
+        double sisi1 = input.nextDouble();
+        System.out.println("Masukkan sisi2 segitiga");
+        double sisi2 = input.nextDouble();
+        System.out.println("Masukkan sisi3 segitiga");
+        double sisi3 = input.nextDouble();
+
+        // PROCCESS
+        double luas = (alas * tinggi) / 2;
+        double keliling = sisi1 + sisi2 + sisi3;
+
+        // OUTPUT
+        System.out.println("Luas segitiga adalah "+ luas);
+        System.out.println("Keliling segitiga adalah "+ keliling);
+    }
 }
