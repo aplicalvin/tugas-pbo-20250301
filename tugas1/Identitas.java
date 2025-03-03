@@ -1,6 +1,7 @@
 package tugas1;
 
 // PERCOBAAN 1 - Langsung di tampilkan melalui System.out.println
+/*
 public class Identitas{
     public static void main(String[] args) {
         System.out.println("NIM        : A11.2023.14880");
@@ -15,4 +16,30 @@ public class Identitas{
     }
 }
 
+*/
 
+
+// PERCOBAAN 2 - Menyimpan identitas dengan variabel 
+public class Identitas{
+    public static void main(String[] args) {
+        // Deklarasi dan assignment variabel
+        String nim = "A11.2023.14880";
+        String nama = "Calvin Samuel Simbolon";
+        String alamat = "Perum. Graha Mukti Residen No. 94";
+        String kota = "Kota Semarang";
+        int kodepos = 50195;
+        String telp = "-";
+        String nohp = "081227426908";
+        String email = "111202314880@mhs.dinus.ac.id";
+
+        // print Output
+        System.out.println("NIM        : "+ nim);
+        System.out.println("NAMA       : "+ nama);
+        System.out.println("Alamat     : "+ alamat);
+        System.out.println("Kota       : "+ kota);
+        System.out.println("Kode Pos   : "+ kodepos);
+        System.out.println("Telp.      : "+ telp);
+        System.out.println("Hp         : "+ nohp);
+        System.out.println("Email      : "+ email);
+    }
+}
