@@ -26,10 +26,13 @@ public class Luas {
                 HitungPersegi(input);
                 break;
             case 2:
+                HitungSegitiga(input);
                 break;
             case 3:
+                HitungLingkaran(input);
                 break;
             case 4:
+                HitungKubus(input);
                 break;
             default:
                 System.out.println("Pilihan anda tidak ada!");
@@ -90,6 +93,21 @@ public class Luas {
         // OUTPUT
         System.out.println("Luas lingkaran adalah "+ luas);
         System.out.println("Keliling lingkaran adalah "+ keliling);
+    }
+
+    // METHOD HITUNG KUBUS
+    public static void HitungKubus(Scanner input) {
+        // INPUT
+        System.out.println("Masukkan Sisi");
+        double sisi = input.nextDouble();
+
+        // PROCCESS
+        double volume = sisi * sisi * sisi;
+        double permukaan = 6 * (sisi * sisi);
+
+        // OUTPUT
+        System.out.println("Volume kubus adalah " + volume);
+        System.out.println("Permukaan kubus adalah " + permukaan); 
 
     }
 }
